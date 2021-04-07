@@ -1,0 +1,173 @@
+/* GENERAL */
+
+*{
+    font-family: 'Exo', sans-serif;
+}
+
+/* WEIGHT-CONVERTER */
+
+#weight-converter h1{
+    font-size: 40px;
+}
+
+#weight-converter form {
+    box-shadow: -9px -10px #ef2853;
+    padding: 55px;
+    top: 15%;
+    position: relative;
+    border-radius: 10px;
+}
+
+#weight-converter input{
+    font-size: 15px;
+}
+
+#weight-converter #results{
+    top: 20%;
+    position: relative;
+}
+
+#weight-converter #results .card{
+    padding: 18px 10px 8px 10px;
+    border-bottom: 3px solid #00f;
+    border-right: 3px solid #00f;
+    border-top: none;
+    border-left: none;
+}
+
+#weight-converter #results .card .card-block{
+    display: flex;
+}
+
+#weight-converter #results .card .card-block div{
+    font-size: 13.5px;
+    font-weight: bold;
+}
+
+#weight-converter .image{
+    top: 30%;
+    position: relative;
+    display: block;
+}
+#weight-converter .image img{
+    margin: auto;
+    display: block;
+}
+
+/* FOOTER */
+
+footer{
+    bottom: 0;
+    right: 0;
+    position: fixed;
+}
+
+footer .background{
+    background-color: #ef2853;
+    height: 40px;
+    width: 268px;
+    border-top-left-radius: 23px;
+    border-bottom-left-radius: 181px;
+    border-top-right-radius: 215px;
+}
+
+footer .background p{
+    color: #fff;
+    position: relative;
+    top: 20%;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 576px){
+    #weight-converter h1{
+        font-size: 23px;
+    }
+    #weight-converter form{
+        padding: 30px;
+        top: 12%;
+    }
+    #weight-converter input{
+        font-size: 10px;
+    }
+    #weight-converter #results{
+        top: 11%;
+    }
+    #weight-converter #results .card{
+        padding: 10px 3px 10px 16px;
+    }
+    #weight-converter #results .card .card-block h6{
+        font-size: 10px;
+    }
+    #weight-converter #results .card .card-block div{
+        font-size: 10.5px;
+    }
+    #weight-converter .image{
+        margin-top: 29px;
+    }
+    #weight-converter .image .img-fluid{
+        max-width: 49%;
+    }
+    footer .background{
+        width: 200px;
+    }
+    footer .background p{
+        top: 28%;
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    #weight-converter h1{
+        font-size: 33px;
+    }
+    #weight-converter form{
+        padding: 34px;
+        top: 13%;
+    }
+    #weight-converter input{
+        font-size: 12px;
+    }
+    #weight-converter #results{
+        top: 11%;
+    }
+    #weight-converter #results .card{
+        padding: 12px 10px 9px 14px;
+    }
+    #weight-converter #results .card .card-block h6{
+        font-size: 13px;
+    }
+    #weight-converter #results .card .card-block div{
+        font-size: 12px;
+    }
+    #weight-converter .image{
+        margin-top: 16px;
+    }
+    #weight-converter .image .img-fluid{
+        max-width: 48%;
+    }
+    footer .background{
+        width: 230px;
+    }
+    footer .background p{
+        top: 26%;
+        font-size: 13.5px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    #weight-converter h1{
+        font-size: 31px;
+    }
+    #weight-converter .image{
+        top: 52%;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    #weight-converter .image{
+        top: 42%;
+    }
+}
+
+
